@@ -29,7 +29,7 @@ minimustache does not sanitize the input. Thus, there's no triple-brace syntax o
 
 ## Size difference
 
-In unpacked form, with CommonJS, ESM, and TypeScript definitions, minimustache is **3.7 kB**. In comparison, mustache is 114 kB.
+In unpacked form, with CommonJS, ESM, and TypeScript definitions, minimustache is **5.3 kB**. In comparison, mustache is 114 kB.
 
 ## Performance
 
