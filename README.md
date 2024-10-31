@@ -1,6 +1,6 @@
 # minimustache
 
-Minimal templating engine, based on mustache's syntax, but with only the bare minimum features. Also a slight bit faster than mustache.
+Minimal templating engine, based on mustache's syntax, but with only the bare minimum feature. Up to **2x faster** and **22x smaller** than mustache.
 
 ## Installation
 
@@ -27,9 +27,13 @@ console.log(result); // Hello, world!
 
 minimustache does not sanitize the input. Thus, there's no triple-brace syntax or anything like that. If you need to escape HTML, you should do it yourself.
 
-## Benchmark
+## Size difference
 
-On an M1 processor, minimustache is between 1.12x and 2.05x faster than mustache, depending on the template and data.
+In unpacked form, with CommonJS, ESM, and TypeScript definitions, minimustache is **3.7 kB**. In comparison, mustache is 114 kB.
+
+## Performance
+
+On an M1 processor, minimustache is between **1.12x** and **2.05x** faster than mustache, depending on the template and data.
 
 If you wish to run the benchmark yourself, you can do so by cloning the repository, installing all dev depencies (`bun i -D`) and running `bun bench`.
 
