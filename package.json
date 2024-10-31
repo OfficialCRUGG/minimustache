@@ -1,0 +1,32 @@
+{
+  "name": "minimustache",
+  "description": "Super minimal mustache implementation",
+  "module": "dist/lib.js",
+  "main": "dist/lib.cjs",
+  "types": "dist/lib.d.ts",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsup",
+    "watch": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "bench": "vitest bench"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/lib.d.ts",
+      "import": "./dist/lib.js",
+      "require": "./dist/lib.cjs"
+    }
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "mustache": "^4.2.0",
+    "tsup": "^8.3.5",
+    "vitest": "^2.1.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
