@@ -1,6 +1,6 @@
 # minimustache
 
-Minimal templating engine, based on mustache's syntax, but with only the bare minimum feature. Up to **2x faster** and **22x smaller** than mustache.
+Minimal templating engine, based on mustache's syntax, but with only the bare minimum feature. Up to **2x faster** and **21x smaller** than mustache.
 
 ## Installation
 
