@@ -5,7 +5,7 @@
   "main": "dist/lib.cjs",
   "types": "dist/lib.d.ts",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "mustache",
     "template",
