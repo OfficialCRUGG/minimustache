@@ -6,7 +6,7 @@
   "types": "dist/lib.d.ts",
   "type": "module",
   "version": "1.0.0",
-  "topics": [
+  "keywords": [
     "mustache",
     "template",
     "templating"
